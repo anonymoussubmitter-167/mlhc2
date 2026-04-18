@@ -1,0 +1,648 @@
+{
+  "sofa": {
+    "error_prediction_auroc": 0.566660520007376,
+    "top_features": [
+      [
+        "age_group_80+",
+        0.11033624410629272
+      ],
+      [
+        "age_group_70-79",
+        0.06620372831821442
+      ],
+      [
+        "age",
+        0.0551481693983078
+      ],
+      [
+        "race_cat_Black",
+        0.045851290225982666
+      ],
+      [
+        "unit_Cardiac ICU",
+        0.043414629995822906
+      ],
+      [
+        "race_cat_Other",
+        0.04307775944471359
+      ],
+      [
+        "age_group_18-29",
+        0.04242183268070221
+      ],
+      [
+        "unit_Neuro ICU",
+        0.03961823135614395
+      ],
+      [
+        "diag_type_Medical",
+        0.03949945792555809
+      ],
+      [
+        "race_cat_White",
+        0.03722451254725456
+      ]
+    ],
+    "vulnerable_subgroups": [
+      {
+        "tree_idx": 1,
+        "leaf_id": 6,
+        "n": 191,
+        "error_rate": 0.22203902532501574,
+        "base_error_rate": 0.1583939057371558,
+        "concentration_ratio": 1.4018154567984122,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 4.991935483870968
+          },
+          "n": 191,
+          "mortality_rate": 0.17277486910994763
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 11,
+        "n": 201,
+        "error_rate": 0.2185530118277004,
+        "base_error_rate": 0.1583939057371558,
+        "concentration_ratio": 1.3798069490777924,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 4.991935483870968
+          },
+          "n": 201,
+          "mortality_rate": 0.1691542288557214
+        }
+      },
+      {
+        "tree_idx": 2,
+        "leaf_id": 17,
+        "n": 233,
+        "error_rate": 0.18697721996213834,
+        "base_error_rate": 0.1583939057371558,
+        "concentration_ratio": 1.180457158954175,
+        "demographics": {
+          "age_group=70-79": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.23747980613893377,
+            "overrep_ratio": 4.210884353741497
+          },
+          "n": 233,
+          "mortality_rate": 0.12446351931330472
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 15,
+        "n": 248,
+        "error_rate": 0.18655608465121062,
+        "base_error_rate": 0.1583939057371558,
+        "concentration_ratio": 1.1777983741419198,
+        "demographics": {
+          "race_cat=Asian": {
+            "subgroup_pct": 0.024193548387096774,
+            "population_pct": 0.014539579967689823,
+            "overrep_ratio": 1.6639784946236558
+          },
+          "age_group=70-79": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.23747980613893377,
+            "overrep_ratio": 4.210884353741497
+          },
+          "n": 248,
+          "mortality_rate": 0.12096774193548387
+        }
+      },
+      {
+        "tree_idx": 2,
+        "leaf_id": 15,
+        "n": 577,
+        "error_rate": 0.160357083892433,
+        "base_error_rate": 0.1583939057371558,
+        "concentration_ratio": 1.012394278341333,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 0.37261698440207974,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 1.8600799463297366
+          },
+          "age_group=60-69": {
+            "subgroup_pct": 0.3223570190641248,
+            "population_pct": 0.20678513731825526,
+            "overrep_ratio": 1.5588983968804158
+          },
+          "age_group=40-49": {
+            "subgroup_pct": 0.11785095320623917,
+            "population_pct": 0.07189014539579967,
+            "overrep_ratio": 1.6393200007789226
+          },
+          "age_group=30-39": {
+            "subgroup_pct": 0.09532062391681109,
+            "population_pct": 0.05896607431340872,
+            "overrep_ratio": 1.6165333206713992
+          },
+          "age_group=18-29": {
+            "subgroup_pct": 0.09185441941074524,
+            "population_pct": 0.05411954765751212,
+            "overrep_ratio": 1.6972503168731732
+          },
+          "n": 577,
+          "mortality_rate": 0.10051993067590988
+        }
+      }
+    ],
+    "n_large_errors": 116,
+    "error_rate": 0.09369951534733441
+  },
+  "qsofa": {
+    "error_prediction_auroc": 0.5576027204037909,
+    "top_features": [
+      [
+        "age_group_80+",
+        0.09608109295368195
+      ],
+      [
+        "age_group_18-29",
+        0.06698334962129593
+      ],
+      [
+        "age_group_70-79",
+        0.0669407770037651
+      ],
+      [
+        "age",
+        0.05600779876112938
+      ],
+      [
+        "unit_Neuro ICU",
+        0.04374086856842041
+      ],
+      [
+        "race_cat_Black",
+        0.043290067464113235
+      ],
+      [
+        "race_cat_Other",
+        0.042935628443956375
+      ],
+      [
+        "unit_SICU",
+        0.039287958294153214
+      ],
+      [
+        "age_group_50-59",
+        0.038112711161375046
+      ],
+      [
+        "diag_type_Medical",
+        0.03807860240340233
+      ]
+    ],
+    "vulnerable_subgroups": [
+      {
+        "tree_idx": 1,
+        "leaf_id": 6,
+        "n": 191,
+        "error_rate": 0.23076298044477253,
+        "base_error_rate": 0.16546225515950305,
+        "concentration_ratio": 1.3946563234153952,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 4.991935483870968
+          },
+          "n": 191,
+          "mortality_rate": 0.17277486910994763
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 11,
+        "n": 201,
+        "error_rate": 0.22746032142710723,
+        "base_error_rate": 0.16546225515950305,
+        "concentration_ratio": 1.3746961275720495,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 4.991935483870968
+          },
+          "n": 201,
+          "mortality_rate": 0.1691542288557214
+        }
+      },
+      {
+        "tree_idx": 2,
+        "leaf_id": 17,
+        "n": 233,
+        "error_rate": 0.19123092004883593,
+        "base_error_rate": 0.16546225515950305,
+        "concentration_ratio": 1.155737420987598,
+        "demographics": {
+          "age_group=70-79": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.23747980613893377,
+            "overrep_ratio": 4.210884353741497
+          },
+          "n": 233,
+          "mortality_rate": 0.12446351931330472
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 15,
+        "n": 248,
+        "error_rate": 0.1894512720377446,
+        "base_error_rate": 0.16546225515950305,
+        "concentration_ratio": 1.1449818078154228,
+        "demographics": {
+          "race_cat=Asian": {
+            "subgroup_pct": 0.024193548387096774,
+            "population_pct": 0.014539579967689823,
+            "overrep_ratio": 1.6639784946236558
+          },
+          "age_group=70-79": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.23747980613893377,
+            "overrep_ratio": 4.210884353741497
+          },
+          "n": 248,
+          "mortality_rate": 0.12096774193548387
+        }
+      },
+      {
+        "tree_idx": 2,
+        "leaf_id": 15,
+        "n": 577,
+        "error_rate": 0.16709185487130832,
+        "base_error_rate": 0.16546225515950305,
+        "concentration_ratio": 1.009848770103093,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 0.37261698440207974,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 1.8600799463297366
+          },
+          "age_group=60-69": {
+            "subgroup_pct": 0.3223570190641248,
+            "population_pct": 0.20678513731825526,
+            "overrep_ratio": 1.5588983968804158
+          },
+          "age_group=40-49": {
+            "subgroup_pct": 0.11785095320623917,
+            "population_pct": 0.07189014539579967,
+            "overrep_ratio": 1.6393200007789226
+          },
+          "age_group=30-39": {
+            "subgroup_pct": 0.09532062391681109,
+            "population_pct": 0.05896607431340872,
+            "overrep_ratio": 1.6165333206713992
+          },
+          "age_group=18-29": {
+            "subgroup_pct": 0.09185441941074524,
+            "population_pct": 0.05411954765751212,
+            "overrep_ratio": 1.6972503168731732
+          },
+          "n": 577,
+          "mortality_rate": 0.10051993067590988
+        }
+      }
+    ],
+    "n_large_errors": 117,
+    "error_rate": 0.09450726978998385
+  },
+  "apache2": {
+    "error_prediction_auroc": 0.600534906588004,
+    "top_features": [
+      [
+        "age_group_80+",
+        0.12228180468082428
+      ],
+      [
+        "age_group_70-79",
+        0.07533188164234161
+      ],
+      [
+        "age_group_18-29",
+        0.0556672140955925
+      ],
+      [
+        "age",
+        0.05466584116220474
+      ],
+      [
+        "race_cat_Black",
+        0.04492545500397682
+      ],
+      [
+        "diag_type_Medical",
+        0.03999984636902809
+      ],
+      [
+        "race_cat_Other",
+        0.03995106741786003
+      ],
+      [
+        "race_cat_White",
+        0.039910461753606796
+      ],
+      [
+        "unit_Cardiac ICU",
+        0.03914386034011841
+      ],
+      [
+        "unit_MICU",
+        0.0370638333261013
+      ]
+    ],
+    "vulnerable_subgroups": [
+      {
+        "tree_idx": 1,
+        "leaf_id": 6,
+        "n": 191,
+        "error_rate": 0.2433300746306005,
+        "base_error_rate": 0.15622468451751015,
+        "concentration_ratio": 1.5575648328694645,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 4.991935483870968
+          },
+          "n": 191,
+          "mortality_rate": 0.17277486910994763
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 11,
+        "n": 201,
+        "error_rate": 0.23963007373253759,
+        "base_error_rate": 0.15622468451751015,
+        "concentration_ratio": 1.533880989887223,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 4.991935483870968
+          },
+          "n": 201,
+          "mortality_rate": 0.1691542288557214
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 18,
+        "n": 239,
+        "error_rate": 0.1899686200706634,
+        "base_error_rate": 0.15622468451751015,
+        "concentration_ratio": 1.2159961830447552,
+        "demographics": {
+          "race_cat=Asian": {
+            "subgroup_pct": 0.02510460251046025,
+            "population_pct": 0.014539579967689823,
+            "overrep_ratio": 1.7266387726638772
+          },
+          "age_group=70-79": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.23747980613893377,
+            "overrep_ratio": 4.210884353741497
+          },
+          "n": 239,
+          "mortality_rate": 0.12133891213389121
+        }
+      },
+      {
+        "tree_idx": 2,
+        "leaf_id": 14,
+        "n": 222,
+        "error_rate": 0.1885428231474567,
+        "base_error_rate": 0.15622468451751015,
+        "concentration_ratio": 1.2068696040562288,
+        "demographics": {
+          "race_cat=Asian": {
+            "subgroup_pct": 0.02702702702702703,
+            "population_pct": 0.014539579967689823,
+            "overrep_ratio": 1.8588588588588588
+          },
+          "age_group=70-79": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.23747980613893377,
+            "overrep_ratio": 4.210884353741497
+          },
+          "n": 222,
+          "mortality_rate": 0.12162162162162163
+        }
+      },
+      {
+        "tree_idx": 2,
+        "leaf_id": 11,
+        "n": 577,
+        "error_rate": 0.16031442188150985,
+        "base_error_rate": 0.15622468451751015,
+        "concentration_ratio": 1.026178560556103,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 0.37261698440207974,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 1.8600799463297366
+          },
+          "age_group=60-69": {
+            "subgroup_pct": 0.3223570190641248,
+            "population_pct": 0.20678513731825526,
+            "overrep_ratio": 1.5588983968804158
+          },
+          "age_group=40-49": {
+            "subgroup_pct": 0.11785095320623917,
+            "population_pct": 0.07189014539579967,
+            "overrep_ratio": 1.6393200007789226
+          },
+          "age_group=30-39": {
+            "subgroup_pct": 0.09532062391681109,
+            "population_pct": 0.05896607431340872,
+            "overrep_ratio": 1.6165333206713992
+          },
+          "age_group=18-29": {
+            "subgroup_pct": 0.09185441941074524,
+            "population_pct": 0.05411954765751212,
+            "overrep_ratio": 1.6972503168731732
+          },
+          "n": 577,
+          "mortality_rate": 0.10051993067590988
+        }
+      }
+    ],
+    "n_large_errors": 113,
+    "error_rate": 0.0912762520193861
+  },
+  "news2": {
+    "error_prediction_auroc": 0.5780779396398058,
+    "top_features": [
+      [
+        "age_group_80+",
+        0.09695468097925186
+      ],
+      [
+        "age",
+        0.05214221030473709
+      ],
+      [
+        "age_group_70-79",
+        0.047548361122608185
+      ],
+      [
+        "race_cat_Black",
+        0.0462961420416832
+      ],
+      [
+        "age_group_30-39",
+        0.044393908232450485
+      ],
+      [
+        "unit_CCU-CTICU",
+        0.04309733957052231
+      ],
+      [
+        "diag_type_Medical",
+        0.04192589595913887
+      ],
+      [
+        "unit_Neuro ICU",
+        0.039834003895521164
+      ],
+      [
+        "age_group_18-29",
+        0.03951471671462059
+      ],
+      [
+        "age_group_60-69",
+        0.0374579057097435
+      ]
+    ],
+    "vulnerable_subgroups": [
+      {
+        "tree_idx": 1,
+        "leaf_id": 12,
+        "n": 166,
+        "error_rate": 0.2182197790064213,
+        "base_error_rate": 0.15371032843865526,
+        "concentration_ratio": 1.4196819512588013,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 4.991935483870968
+          },
+          "n": 166,
+          "mortality_rate": 0.18072289156626506
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 21,
+        "n": 186,
+        "error_rate": 0.21353467352065428,
+        "base_error_rate": 0.15371032843865526,
+        "concentration_ratio": 1.3892018557872934,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 4.991935483870968
+          },
+          "n": 186,
+          "mortality_rate": 0.17204301075268819
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 20,
+        "n": 209,
+        "error_rate": 0.1769478276245787,
+        "base_error_rate": 0.15371032843865526,
+        "concentration_ratio": 1.1511772138018517,
+        "demographics": {
+          "age_group=70-79": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.23747980613893377,
+            "overrep_ratio": 4.210884353741497
+          },
+          "n": 209,
+          "mortality_rate": 0.12440191387559808
+        }
+      },
+      {
+        "tree_idx": 2,
+        "leaf_id": 21,
+        "n": 141,
+        "error_rate": 0.17394970396655934,
+        "base_error_rate": 0.15371032843865526,
+        "concentration_ratio": 1.1316721897187376,
+        "demographics": {
+          "race_cat=Asian": {
+            "subgroup_pct": 0.028368794326241134,
+            "population_pct": 0.014539579967689823,
+            "overrep_ratio": 1.9511426319936958
+          },
+          "sex=Male": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.5961227786752827,
+            "overrep_ratio": 1.6775067750677506
+          },
+          "age_group=70-79": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.23747980613893377,
+            "overrep_ratio": 4.210884353741497
+          },
+          "n": 141,
+          "mortality_rate": 0.12056737588652482
+        }
+      },
+      {
+        "tree_idx": 2,
+        "leaf_id": 19,
+        "n": 577,
+        "error_rate": 0.15534818878928675,
+        "base_error_rate": 0.15371032843865526,
+        "concentration_ratio": 1.0106554996483867,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 0.37261698440207974,
+            "population_pct": 0.20032310177705978,
+            "overrep_ratio": 1.8600799463297366
+          },
+          "age_group=60-69": {
+            "subgroup_pct": 0.3223570190641248,
+            "population_pct": 0.20678513731825526,
+            "overrep_ratio": 1.5588983968804158
+          },
+          "age_group=40-49": {
+            "subgroup_pct": 0.11785095320623917,
+            "population_pct": 0.07189014539579967,
+            "overrep_ratio": 1.6393200007789226
+          },
+          "age_group=30-39": {
+            "subgroup_pct": 0.09532062391681109,
+            "population_pct": 0.05896607431340872,
+            "overrep_ratio": 1.6165333206713992
+          },
+          "age_group=18-29": {
+            "subgroup_pct": 0.09185441941074524,
+            "population_pct": 0.05411954765751212,
+            "overrep_ratio": 1.6972503168731732
+          },
+          "n": 577,
+          "mortality_rate": 0.10051993067590988
+        }
+      }
+    ],
+    "n_large_errors": 116,
+    "error_rate": 0.09369951534733441
+  }
+}

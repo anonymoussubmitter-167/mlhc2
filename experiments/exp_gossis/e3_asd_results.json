@@ -1,0 +1,638 @@
+{
+  "sofa": {
+    "error_prediction_auroc": 0.6272255372895645,
+    "top_features": [
+      [
+        "age_group_80+",
+        0.33105430006980896
+      ],
+      [
+        "age_group_70-79",
+        0.10351275652647018
+      ],
+      [
+        "age_group_18-29",
+        0.05893091857433319
+      ],
+      [
+        "age",
+        0.04609100893139839
+      ],
+      [
+        "unit_MICU",
+        0.045706041157245636
+      ],
+      [
+        "age_group_40-49",
+        0.045022182166576385
+      ],
+      [
+        "diag_type_Medical",
+        0.03427232429385185
+      ],
+      [
+        "age_group_50-59",
+        0.032937079668045044
+      ],
+      [
+        "diag_type_Cardiac",
+        0.029146667569875717
+      ],
+      [
+        "unit_Cardiac ICU",
+        0.027659106999635696
+      ]
+    ],
+    "vulnerable_subgroups": [
+      {
+        "tree_idx": 0,
+        "leaf_id": 26,
+        "n": 626,
+        "error_rate": 0.23190633142491832,
+        "base_error_rate": 0.13487217246484554,
+        "concentration_ratio": 1.7194527765567411,
+        "demographics": {
+          "sex=Male": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.5457492382763282,
+            "overrep_ratio": 1.8323433728617904
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 626,
+          "mortality_rate": 0.19169329073482427
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 13,
+        "n": 626,
+        "error_rate": 0.23190633142491832,
+        "base_error_rate": 0.13487217246484554,
+        "concentration_ratio": 1.7194527765567411,
+        "demographics": {
+          "sex=Male": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.5457492382763282,
+            "overrep_ratio": 1.8323433728617904
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 626,
+          "mortality_rate": 0.19169329073482427
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 24,
+        "n": 547,
+        "error_rate": 0.20771646177570854,
+        "base_error_rate": 0.13487217246484554,
+        "concentration_ratio": 1.540098731855527,
+        "demographics": {
+          "race_cat=Hispanic": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.040829181698448146,
+            "overrep_ratio": 24.492286115007015
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 547,
+          "mortality_rate": 0.17550274223034734
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 24,
+        "n": 547,
+        "error_rate": 0.20771646177570854,
+        "base_error_rate": 0.13487217246484554,
+        "concentration_ratio": 1.540098731855527,
+        "demographics": {
+          "race_cat=Hispanic": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.040829181698448146,
+            "overrep_ratio": 24.492286115007015
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 547,
+          "mortality_rate": 0.17550274223034734
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 27,
+        "n": 659,
+        "error_rate": 0.19816389070886636,
+        "base_error_rate": 0.13487217246484554,
+        "concentration_ratio": 1.4692718823115112,
+        "demographics": {
+          "sex=Female": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.45425076172367185,
+            "overrep_ratio": 2.2014272385707443
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 659,
+          "mortality_rate": 0.16236722306525037
+        }
+      }
+    ],
+    "n_large_errors": 7163,
+    "error_rate": 0.08203630533127183
+  },
+  "qsofa": {
+    "error_prediction_auroc": 0.630155282879536,
+    "top_features": [
+      [
+        "age_group_80+",
+        0.3024437427520752
+      ],
+      [
+        "age_group_70-79",
+        0.0998820811510086
+      ],
+      [
+        "age_group_18-29",
+        0.07722153514623642
+      ],
+      [
+        "age_group_40-49",
+        0.04967852309346199
+      ],
+      [
+        "age",
+        0.0475580096244812
+      ],
+      [
+        "unit_MICU",
+        0.04379579424858093
+      ],
+      [
+        "diag_type_Medical",
+        0.04045787453651428
+      ],
+      [
+        "age_group_50-59",
+        0.039264924824237823
+      ],
+      [
+        "unit_CSICU",
+        0.031071441248059273
+      ],
+      [
+        "unit_SICU",
+        0.028375845402479172
+      ]
+    ],
+    "vulnerable_subgroups": [
+      {
+        "tree_idx": 1,
+        "leaf_id": 28,
+        "n": 553,
+        "error_rate": 0.24550658729776786,
+        "base_error_rate": 0.1443359970004322,
+        "concentration_ratio": 1.7009380362476916,
+        "demographics": {
+          "sex=Male": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.5457492382763282,
+            "overrep_ratio": 1.8323433728617904
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 553,
+          "mortality_rate": 0.19529837251356238
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 25,
+        "n": 629,
+        "error_rate": 0.2352227435953536,
+        "base_error_rate": 0.1443359970004322,
+        "concentration_ratio": 1.6296887019434885,
+        "demographics": {
+          "race_cat=Hispanic": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.040829181698448146,
+            "overrep_ratio": 24.492286115007015
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 629,
+          "mortality_rate": 0.18600953895071543
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 24,
+        "n": 1304,
+        "error_rate": 0.23054805216636912,
+        "base_error_rate": 0.1443359970004322,
+        "concentration_ratio": 1.5973011373294408,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 1304,
+          "mortality_rate": 0.17561349693251535
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 29,
+        "n": 659,
+        "error_rate": 0.22081987840032055,
+        "base_error_rate": 0.1443359970004322,
+        "concentration_ratio": 1.5299016391569964,
+        "demographics": {
+          "sex=Female": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.45425076172367185,
+            "overrep_ratio": 2.2014272385707443
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 659,
+          "mortality_rate": 0.16236722306525037
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 23,
+        "n": 8438,
+        "error_rate": 0.1970606586266372,
+        "base_error_rate": 0.1443359970004322,
+        "concentration_ratio": 1.36529114511917,
+        "demographics": {
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "diag_type=Surgical": {
+            "subgroup_pct": 0.0893576676937663,
+            "population_pct": 0.056760006871671535,
+            "overrep_ratio": 1.5743068512270388
+          },
+          "n": 8438,
+          "mortality_rate": 0.13877696136525242
+        }
+      }
+    ],
+    "n_large_errors": 7267,
+    "error_rate": 0.08322739506384928
+  },
+  "apache2": {
+    "error_prediction_auroc": 0.6240625468710874,
+    "top_features": [
+      [
+        "age_group_80+",
+        0.35100266337394714
+      ],
+      [
+        "age_group_18-29",
+        0.08929166197776794
+      ],
+      [
+        "age_group_70-79",
+        0.06569816917181015
+      ],
+      [
+        "age_group_50-59",
+        0.04875189810991287
+      ],
+      [
+        "age",
+        0.04549775645136833
+      ],
+      [
+        "age_group_40-49",
+        0.04385494813323021
+      ],
+      [
+        "unit_MICU",
+        0.03841724991798401
+      ],
+      [
+        "diag_type_Medical",
+        0.03667198866605759
+      ],
+      [
+        "age_group_30-39",
+        0.03416375815868378
+      ],
+      [
+        "diag_type_Cardiac",
+        0.027108104899525642
+      ]
+    ],
+    "vulnerable_subgroups": [
+      {
+        "tree_idx": 1,
+        "leaf_id": 13,
+        "n": 626,
+        "error_rate": 0.22777161524936446,
+        "base_error_rate": 0.12583367838479956,
+        "concentration_ratio": 1.8101005881179009,
+        "demographics": {
+          "sex=Male": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.5457492382763282,
+            "overrep_ratio": 1.8323433728617904
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 626,
+          "mortality_rate": 0.19169329073482427
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 27,
+        "n": 659,
+        "error_rate": 0.2020765993255345,
+        "base_error_rate": 0.12583367838479956,
+        "concentration_ratio": 1.6059023460125197,
+        "demographics": {
+          "sex=Female": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.45425076172367185,
+            "overrep_ratio": 2.2014272385707443
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 659,
+          "mortality_rate": 0.16236722306525037
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 24,
+        "n": 547,
+        "error_rate": 0.19347089987695207,
+        "base_error_rate": 0.12583367838479956,
+        "concentration_ratio": 1.537512869053369,
+        "demographics": {
+          "race_cat=Hispanic": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.040829181698448146,
+            "overrep_ratio": 24.492286115007015
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 547,
+          "mortality_rate": 0.17550274223034734
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 24,
+        "n": 4638,
+        "error_rate": 0.19234598396778727,
+        "base_error_rate": 0.12583367838479956,
+        "concentration_ratio": 1.5285731644877534,
+        "demographics": {
+          "sex=Male": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.5457492382763282,
+            "overrep_ratio": 1.8323433728617904
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 4638,
+          "mortality_rate": 0.14898663216903837
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 26,
+        "n": 153,
+        "error_rate": 0.1898908523893585,
+        "base_error_rate": 0.12583367838479956,
+        "concentration_ratio": 1.5090622385580432,
+        "demographics": {
+          "race_cat=Black": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.106006986199393,
+            "overrep_ratio": 9.433340535868625
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "diag_type=Cardiac": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.2263757659050564,
+            "overrep_ratio": 4.417433977537185
+          },
+          "n": 153,
+          "mortality_rate": 0.12418300653594772
+        }
+      }
+    ],
+    "n_large_errors": 6830,
+    "error_rate": 0.07822252762984595
+  },
+  "news2": {
+    "error_prediction_auroc": 0.6303304893981669,
+    "top_features": [
+      [
+        "age_group_80+",
+        0.3304026126861572
+      ],
+      [
+        "age_group_70-79",
+        0.09970767796039581
+      ],
+      [
+        "age_group_18-29",
+        0.07942111790180206
+      ],
+      [
+        "age_group_40-49",
+        0.053034085780382156
+      ],
+      [
+        "age",
+        0.04625759646296501
+      ],
+      [
+        "diag_type_Medical",
+        0.04167815297842026
+      ],
+      [
+        "unit_MICU",
+        0.0368497334420681
+      ],
+      [
+        "age_group_50-59",
+        0.029281144961714745
+      ],
+      [
+        "unit_Cardiac ICU",
+        0.028789110481739044
+      ],
+      [
+        "unit_CSICU",
+        0.026778170838952065
+      ]
+    ],
+    "vulnerable_subgroups": [
+      {
+        "tree_idx": 1,
+        "leaf_id": 28,
+        "n": 553,
+        "error_rate": 0.223459339819702,
+        "base_error_rate": 0.1336334609186826,
+        "concentration_ratio": 1.6721810412115226,
+        "demographics": {
+          "sex=Male": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.5457492382763282,
+            "overrep_ratio": 1.8323433728617904
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 553,
+          "mortality_rate": 0.19529837251356238
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 26,
+        "n": 626,
+        "error_rate": 0.22193388945190337,
+        "base_error_rate": 0.1336334609186826,
+        "concentration_ratio": 1.6607658585371257,
+        "demographics": {
+          "sex=Male": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.5457492382763282,
+            "overrep_ratio": 1.8323433728617904
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 626,
+          "mortality_rate": 0.19169329073482427
+        }
+      },
+      {
+        "tree_idx": 1,
+        "leaf_id": 29,
+        "n": 659,
+        "error_rate": 0.20147529504737716,
+        "base_error_rate": 0.1336334609186826,
+        "concentration_ratio": 1.5076710104064208,
+        "demographics": {
+          "sex=Female": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.45425076172367185,
+            "overrep_ratio": 2.2014272385707443
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 659,
+          "mortality_rate": 0.16236722306525037
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 25,
+        "n": 678,
+        "error_rate": 0.20030069528733796,
+        "base_error_rate": 0.1336334609186826,
+        "concentration_ratio": 1.4988812974710208,
+        "demographics": {
+          "sex=Female": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.45425076172367185,
+            "overrep_ratio": 2.2014272385707443
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 678,
+          "mortality_rate": 0.1607669616519174
+        }
+      },
+      {
+        "tree_idx": 0,
+        "leaf_id": 24,
+        "n": 547,
+        "error_rate": 0.19297218816830874,
+        "base_error_rate": 0.1336334609186826,
+        "concentration_ratio": 1.4440409373647396,
+        "demographics": {
+          "race_cat=Hispanic": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.040829181698448146,
+            "overrep_ratio": 24.492286115007015
+          },
+          "age_group=80+": {
+            "subgroup_pct": 1.0,
+            "population_pct": 0.16079711389795567,
+            "overrep_ratio": 6.219017094017095
+          },
+          "n": 547,
+          "mortality_rate": 0.17550274223034734
+        }
+      }
+    ],
+    "n_large_errors": 7159,
+    "error_rate": 0.08199049418771116
+  }
+}
